@@ -1,4 +1,5 @@
 
+
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +7,15 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif; 
-  background: linear-gradient(135deg, #e5f3f3, #a0c9c9); 
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #e5f3f3, #a0c9c9);
   color: #333;
   overflow-x: hidden;
   animation: fadeIn 1s ease-out;
-  cursor:  auto; 
+  cursor: auto;
   line-height: 1.6;
   letter-spacing: 0.5px;
 }
-
 
 @keyframes fadeIn {
   0% {
@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-  background: linear-gradient(135deg, #005f73, #013a3a); 
+  background: linear-gradient(135deg, #005f73, #013a3a);
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ nav .logo {
   color: #fff;
   font-weight: bold;
   animation: fadeIn 2s ease-out;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .nav-links {
@@ -71,7 +71,7 @@ nav .logo {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
-  cursor: pointer; 
+  cursor: pointer;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
@@ -111,7 +111,7 @@ section {
 
 h1, h2 {
   text-align: center;
-  color: #005f73; 
+  color: #005f73;
   animation: fadeIn 2s ease-out;
 }
 
@@ -145,13 +145,12 @@ ul {
   animation: slideIn 2s ease-out forwards;
 }
 
-
 a:hover, button:hover {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 footer {
-  background: #005f73; 
+  background: #005f73;
   color: white;
   text-align: center;
   padding: 15px 0;
@@ -159,7 +158,7 @@ footer {
   bottom: 0;
   width: 100%;
   animation: fadeIn 2s ease-out;
-  cursor: default; 
+  cursor: default;
 }
 
 footer p {
@@ -171,7 +170,7 @@ footer p {
     display: none;
     width: 100%;
     flex-direction: column;
-    background: #005f73; 
+    background: #005f73;
     position: absolute;
     top: 60px;
     left: 0;
@@ -186,20 +185,28 @@ footer p {
   }
 
   .grid {
-    display: block; 
+    display: block;
+    text-align: center;
   }
 
   .project-card {
     display: inline-block;
-    width: 100%;
+    width: 100%; /* Ensure cards take full width */
     margin: 10px 0;
     cursor: pointer;
   }
 }
 
+/* Responsive images inside project cards */
+.project-card img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 12px;
+}
+
 .grid {
-  display: block; 
-  text-align: center; 
+  display: block;
+  text-align: center;
 }
 
 .project-card {
@@ -212,12 +219,29 @@ footer p {
   border-radius: 12px;
   background-color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer; 
+  cursor: pointer;
+  position: relative;
 }
 
 .project-card:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Fix text inside project cards */
+.project-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #333;
+  text-align: center;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin: 10px 0;
 }
 
 form {
@@ -241,51 +265,51 @@ form input, form textarea {
 }
 
 form input:focus, form textarea:focus {
-  border-color: #ff6347; 
+  border-color: #ff6347;
   box-shadow: 0 0 10px rgba(255, 99, 71, 0.5);
 }
 
 form button {
   padding: 12px;
-  background: #005f73; 
+  background: #005f73;
   color: white;
   border: none;
   border-radius: 8px;
-  cursor: pointer; 
+  cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
 form button:hover {
-  background: #ff6347; 
+  background: #ff6347;
   transform: scale(1.05);
 }
+
 footer {
-  background-color:#005f73;
+  background-color: #005f73;
   color: #fff;
-  text-align: center; 
+  text-align: center;
   padding: 10px 0;
   width: 100%;
-  position: fixed; 
+  position: fixed;
   bottom: 0;
   left: 0;
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 footer p {
   margin: 0;
   font-size: 14px;
-  display: inline; 
+  display: inline;
 }
+
 #loved-sports a {
   text-decoration: none;
   color: black;
 }
 
 #loved-sports a:hover {
-  color: black; 
+  color: black;
 }
-
-
