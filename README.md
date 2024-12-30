@@ -1,7 +1,7 @@
 # Sports-portfolio
 
 
-![image](https://cdn-icons-png.freepik.com/256/1218/1218473.png?semt=ais_hybrid?raw=true)
+![image](https://github.com/indra-p8825/Sports-portfolio/blob/main/Screenshot%202024-12-30%20152936.png)
 
 
 
@@ -14,35 +14,20 @@
 ![image](https://img.shields.io/static/v1?label=Mobile&message=In%20progress&color=critical)
 
 ## Introduction
-The 3D Flight Simulator Game project offers an immersive experience of piloting an aircraft through stunning, lifelike environments. Utilizing advanced technologies like 3D mapping and real-time geospatial data, the game recreates terrains, cities, and landmarks with incredible detail. Players can navigate dynamic skies, control aircraft movements, and interact with realistic flight paths and weather conditions.
+**Responsive Navigation Bar**: A navigation bar that collapses into a hamburger menu on smaller screens (mobile view), making the site accessible on any device.
+- **Project Showcase**: A clean, grid-based layout for displaying sample projects, helping visitors explore your work and skills.
+- **Smooth Scrolling**: Smooth scrolling effect when navigating between sections, improving user experience and design flow.
+- **Contact Form**: A contact form with basic validation implemented using JavaScript. Ensures that users input valid data before submitting.
 
-Whether for entertainment, education, or training, this simulator brings the thrill of aviation to life, combining realistic visuals, smooth performance, and engaging gameplay for a captivating journey above the clouds.
+## Technologies Used:
+
+**HTML5**: Used for the structure of the website and content.
+- **CSS3**: Styling language for layout, design, and responsiveness.
+  - **Flexbox** and **CSS Grid** for layout management.
+  - **Media Queries** to ensure responsiveness across all devices.
+- **JavaScript**: For interactive elements like smooth scrolling and form validation.
 
 
-# Getting started & controls
-Hi! Thank you for checking out The 3D Flight Simulator Game Project. Thus far there is not much to do in the plane project but fly around and discover generated chunks that nobody has ever seen before.Up/Down changes your speed and Left/Right changes your direction.
-
-![image](https://github.com/Glowstick0017/Little-Plane-Project/blob/master/css/arrowKeys.png?raw=true)
 
 
 
-## Instructions within the Application
-With the addition of the context menu thanks to jackwebdev, detailed instructions are available within the application itself, providing information on controls and command execution. These instructions enhance the user experience and understanding.
-
-# Roadmap
-Upcoming features to be implemented
-- [X] Instructions in context menu
-- [ ] mobile controls (either joystick or click on displayed WASD)
-- [ ] context menu friendly on mobile  
-- [X] menu screen or esc menu
-- [X] command to change plane or color of plane
-- [X] user adjusted color values
-- [ ] toggleable stats
-- [X] color command that shows underlying perlin plane in black/white
-- [ ] different worlds
-- [ ] randomly spawned airports to refuel
-- [ ] deliver packages from airports to others directed by arrow on screen
-- [ ] user feature suggestions
-
-# How to run a development copy of the project
-This project ensuring all assets like plane images are properly organized. Use a local web server, such as VS Code Live Server or Node.js with http-server, to serve the project. Once set up, open the provided localhost URL in a browser to view and interact with the 3D Flight Simulator. This setup allows for smooth testing and debugging during development.
